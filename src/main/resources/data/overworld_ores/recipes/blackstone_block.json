@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:blackstone_rock"
+    }
+  },
+  "result": {
+    "item": "minecraft:blackstone",
+    "count": 1
+  }
+}

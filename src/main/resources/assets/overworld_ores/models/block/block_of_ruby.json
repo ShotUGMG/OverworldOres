@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_ruby",
+    "up": "overworld_ores:block/block_of_ruby",
+    "north": "overworld_ores:block/block_of_ruby",
+    "east": "overworld_ores:block/block_of_ruby",
+    "south": "overworld_ores:block/block_of_ruby",
+    "west": "overworld_ores:block/block_of_ruby",
+    "particle": "overworld_ores:block/block_of_ruby"
+  },
+  "render_type": "solid"
+}

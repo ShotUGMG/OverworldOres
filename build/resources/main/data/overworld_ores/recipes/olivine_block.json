@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:olivine"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:block_of_olivine",
+    "count": 1
+  }
+}

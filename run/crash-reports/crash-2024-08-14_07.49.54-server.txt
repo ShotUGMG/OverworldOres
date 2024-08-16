@@ -1,0 +1,170 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2024-08-14 07:49:54
+Description: Exception generating new chunk
+
+java.lang.IllegalStateException: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / overworld_ores:crystalline_caverns]=net.minecraft.world.level.biome.Biome@41c88e00}]
+	at net.minecraft.world.level.biome.FeatureSorter.buildFeaturesPerStep(FeatureSorter.java:100) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.mcreator.overworldores.init.OverworldOresModBiomes.lambda$onServerAboutToStart$1(OverworldOresModBiomes.java:62) ~[%23196!/:?] {re:classloading}
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183) ~[guava-31.1-jre.jar%23106!/:?] {}
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:288) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus.lambda$static$11(ChunkStatus.java:108) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.doWork(ChunkStatus.java:309) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.ChunkStatus.generate(ChunkStatus.java:252) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23136!/:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.lambda$message$1(ChunkTaskPriorityQueueSorter.java:62) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.pollTask(ProcessorMailbox.java:91) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.pollUntil(ProcessorMailbox.java:146) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.world.level.biome.FeatureSorter.buildFeaturesPerStep(FeatureSorter.java:100) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.mcreator.overworldores.init.OverworldOresModBiomes.lambda$onServerAboutToStart$1(OverworldOresModBiomes.java:62) ~[%23196!/:?] {re:classloading}
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183) ~[guava-31.1-jre.jar%23106!/:?] {}
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:288) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus.lambda$static$11(ChunkStatus.java:108) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.doWork(ChunkStatus.java:309) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.ChunkStatus.generate(ChunkStatus.java:252) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23136!/:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.lambda$message$1(ChunkTaskPriorityQueueSorter.java:62) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.pollTask(ProcessorMailbox.java:91) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.pollUntil(ProcessorMailbox.java:146) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+-- Chunk to be generated --
+Details:
+	Location: -4,3
+	Position hash: 17179869180
+	Generator: net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@4d3926bb
+Stacktrace:
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23136!/:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.lambda$message$1(ChunkTaskPriorityQueueSorter.java:62) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.pollTask(ProcessorMailbox.java:91) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.pollUntil(ProcessorMailbox.java:146) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 625
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-40,64,72), Section: (at 8,0,8 in -3,4,4; chunk contains blocks -48,-64,64 to -33,319,79), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 0 game time, 0 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.createLevels(MinecraftServer.java:355) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:308) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.initServer(IntegratedServer.java:63) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:634) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 263544192 bytes (251 MiB) / 775946240 bytes (740 MiB) up to 8300527616 bytes (7916 MiB)
+	CPUs: 8
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 2400G with Radeon Vega Graphics    
+	Identifier: AuthenticAMD Family 23 Model 17 Stepping 0
+	Microarchitecture: Zen
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA GeForce GTX 1050
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x1c81
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.5244
+	Graphics card #1 name: AMD Radeon(TM) RX Vega 11 Graphics
+	Graphics card #1 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #1 VRAM (MB): 0.00
+	Graphics card #1 deviceId: 0x15dd
+	Graphics card #1 versionInfo: DriverVersion=31.0.21910.5
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 37333.35
+	Virtual memory used (MB): 32194.67
+	Swap memory total (MB): 5676.73
+	Swap memory used (MB): 0.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:overworld_ores, mod:forge
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.2.0_mapped_official_1.20.1.jar    |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |Overworld_Ores                |overworld_ores                |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.2.0              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 2f243ead-1243-4e9d-9892-6ad0c034825e
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.0

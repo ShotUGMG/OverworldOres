@@ -1,0 +1,29 @@
+{
+  "_fv": 60,
+  "_type": "structure",
+  "definition": {
+    "structure": "meteor_olivine_debris",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 12,
+    "separation": 6,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MeteorCraterZone"
+      }
+    ],
+    "surfaceDetectionType": "OCEAN_FLOOR_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

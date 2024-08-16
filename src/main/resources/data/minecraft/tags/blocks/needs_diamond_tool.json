@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:block_of_adamantite",
+    "overworld_ores:block_of_raw_adamantite",
+    "overworld_ores:adamantite_ore",
+    "overworld_ores:block_of_platinum",
+    "overworld_ores:block_of_raw_platinum",
+    "overworld_ores:platinum_ore"
+  ]
+}

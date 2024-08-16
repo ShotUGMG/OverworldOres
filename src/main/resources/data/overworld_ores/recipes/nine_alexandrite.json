@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "overworld_ores:block_of_alexandrite"
+    }
+  ],
+  "result": {
+    "item": "overworld_ores:alexandrite",
+    "count": 9
+  }
+}

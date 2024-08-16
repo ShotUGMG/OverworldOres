@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:basalt_rock"
+    }
+  },
+  "result": {
+    "item": "minecraft:basalt",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "overworld_ores:block/meteor_stone_panels",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "overworld_ores:block/meteor_stone_panels"
+    },
+    "axis=z": {
+      "model": "overworld_ores:block/meteor_stone_panels",
+      "x": 90
+    }
+  }
+}

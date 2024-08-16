@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:ruby_ore",
+    "overworld_ores:deepslate_ruby_ore"
+  ]
+}

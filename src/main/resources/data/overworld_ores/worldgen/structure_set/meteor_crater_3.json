@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "overworld_ores:meteor_crater_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 3,
+    "salt": 291855957
+  }
+}

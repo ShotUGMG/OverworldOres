@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "overworld_ores:block_of_steel"
+  },
+  "result": "overworld_ores:cut_steel"
+}

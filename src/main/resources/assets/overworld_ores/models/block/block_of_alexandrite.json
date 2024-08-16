@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_alexandrite",
+    "up": "overworld_ores:block/block_of_alexandrite",
+    "north": "overworld_ores:block/block_of_alexandrite",
+    "east": "overworld_ores:block/block_of_alexandrite",
+    "south": "overworld_ores:block/block_of_alexandrite",
+    "west": "overworld_ores:block/block_of_alexandrite",
+    "particle": "overworld_ores:block/block_of_alexandrite"
+  },
+  "render_type": "solid"
+}

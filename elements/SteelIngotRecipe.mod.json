@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:IronComposite"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SteelIngot"
+    },
+    "name": "steel_ingot_recipe",
+    "namespace": "mod"
+  }
+}

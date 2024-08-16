@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "overworld_ores:adamantite_ingot"
+    },
+    "title": {
+      "translate": "advancements.stronger_than_netherite.title"
+    },
+    "description": {
+      "translate": "advancements.stronger_than_netherite.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stronger_than_netherite_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "overworld_ores:adamantite_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "overworld_ores:inbetween_the_bedrock"
+}

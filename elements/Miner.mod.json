@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Cave Miner",
+    "pointOfInterest": {
+      "value": "Blocks.ANVIL#0"
+    },
+    "actionSound": {
+      "value": "block.anvil.use"
+    },
+    "hat": "None",
+    "professionTextureFile": "villager_miner.png",
+    "zombifiedProfessionTextureFile": "zombie_miner.png"
+  }
+}

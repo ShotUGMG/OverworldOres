@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "overworld_ores:raw_adamantite"
+    },
+    "title": {
+      "translate": "advancements.inbetween_the_bedrock.title"
+    },
+    "description": {
+      "translate": "advancements.inbetween_the_bedrock.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inbetween_the_bedrock_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "overworld_ores:raw_adamantite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:nether/netherite_armor"
+}

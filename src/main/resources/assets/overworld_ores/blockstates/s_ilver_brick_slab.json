@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "overworld_ores:block/s_ilver_brick_slab"
+    },
+    "type=top": {
+      "model": "overworld_ores:block/s_ilver_brick_slab_top"
+    },
+    "type=double": {
+      "model": "overworld_ores:block/s_ilver_brick_slab_full"
+    }
+  }
+}

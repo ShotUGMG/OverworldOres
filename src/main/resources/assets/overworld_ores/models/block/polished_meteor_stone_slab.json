@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "overworld_ores:block/polished_meteor_stone",
+    "top": "overworld_ores:block/polished_meteor_stone",
+    "side": "overworld_ores:block/slab_extra"
+  },
+  "render_type": "solid"
+}

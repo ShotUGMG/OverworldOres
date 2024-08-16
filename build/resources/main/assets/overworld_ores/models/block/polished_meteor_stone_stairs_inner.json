@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "overworld_ores:block/polished_meteor_stone",
+    "top": "overworld_ores:block/slab_extra",
+    "side": "overworld_ores:block/slab_extra"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/steel_grate",
+    "up": "overworld_ores:block/steel_grate",
+    "north": "overworld_ores:block/steel_grate",
+    "east": "overworld_ores:block/steel_grate",
+    "south": "overworld_ores:block/steel_grate",
+    "west": "overworld_ores:block/steel_grate",
+    "particle": "overworld_ores:block/steel_grate"
+  },
+  "render_type": "cutout"
+}

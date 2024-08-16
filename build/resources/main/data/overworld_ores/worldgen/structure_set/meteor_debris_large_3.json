@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "overworld_ores:meteor_debris_large_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 4,
+    "salt": 955306438
+  }
+}

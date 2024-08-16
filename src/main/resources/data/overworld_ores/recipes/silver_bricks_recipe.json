@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "overworld_ores:block_of_silver"
+  },
+  "result": "overworld_ores:silver_bricks"
+}

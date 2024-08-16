@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "overworld_ores:meteorite_scraps"
+    },
+    {
+      "item": "overworld_ores:olivine_nugget"
+    }
+  ],
+  "result": {
+    "item": "overworld_ores:meteorite_composite",
+    "count": 1
+  }
+}

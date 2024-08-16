@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:crystalline_caverns",
+    "overworld_ores:meteor_crater_zone"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:andesite_rock"
+    }
+  },
+  "result": {
+    "item": "minecraft:andesite",
+    "count": 1
+  }
+}

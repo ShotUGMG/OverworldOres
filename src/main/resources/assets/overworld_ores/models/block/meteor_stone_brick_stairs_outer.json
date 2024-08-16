@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "overworld_ores:block/meteor_stone_bricks",
+    "top": "overworld_ores:block/meteor_stone_bricks",
+    "side": "overworld_ores:block/meteor_stone_bricks"
+  },
+  "render_type": "solid"
+}

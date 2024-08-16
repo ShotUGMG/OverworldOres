@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/grated_silver",
+    "up": "overworld_ores:block/grated_silver",
+    "north": "overworld_ores:block/grated_silver",
+    "east": "overworld_ores:block/grated_silver",
+    "south": "overworld_ores:block/grated_silver",
+    "west": "overworld_ores:block/grated_silver",
+    "particle": "overworld_ores:block/grated_silver"
+  },
+  "render_type": "cutout"
+}

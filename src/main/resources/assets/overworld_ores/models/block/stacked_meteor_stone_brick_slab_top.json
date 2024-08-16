@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "overworld_ores:block/meteor_stone_stacked_bricks",
+    "top": "overworld_ores:block/meteor_stone_stacked_bricks",
+    "side": "overworld_ores:block/meteor_stone_stacked_bricks"
+  },
+  "render_type": "solid"
+}

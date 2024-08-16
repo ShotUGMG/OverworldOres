@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "overworld_ores:platinum_upgrade_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "addition": {
+    "item": "overworld_ores:platinum_ingot"
+  },
+  "result": {
+    "item": "overworld_ores:platinum_hoe"
+  }
+}

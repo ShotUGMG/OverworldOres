@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:chisel"
+    },
+    "b": {
+      "item": "overworld_ores:olivine"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:olivine_nugget",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "overworld_ores:block/meteor_stone_tiles",
+    "top": "overworld_ores:block/meteor_stone_tiles",
+    "side": "overworld_ores:block/meteor_stone_tiles"
+  },
+  "render_type": "solid"
+}

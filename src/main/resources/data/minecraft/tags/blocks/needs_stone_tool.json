@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:block_of_tin",
+    "overworld_ores:block_of_raw_tin",
+    "overworld_ores:tin_ore"
+  ]
+}

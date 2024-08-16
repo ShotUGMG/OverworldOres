@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "overworld_ores:meteorite_alloy"
+  },
+  "base": {
+    "item": "overworld_ores:olivinite_smithing_template"
+  },
+  "addition": {
+    "item": "minecraft:golden_leggings"
+  },
+  "result": {
+    "item": "overworld_ores:olivinite_armor_leggings"
+  }
+}

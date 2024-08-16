@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_raw_silver",
+    "up": "overworld_ores:block/block_of_raw_silver",
+    "north": "overworld_ores:block/block_of_raw_silver",
+    "east": "overworld_ores:block/block_of_raw_silver",
+    "south": "overworld_ores:block/block_of_raw_silver",
+    "west": "overworld_ores:block/block_of_raw_silver",
+    "particle": "overworld_ores:block/block_of_raw_silver"
+  },
+  "render_type": "solid"
+}

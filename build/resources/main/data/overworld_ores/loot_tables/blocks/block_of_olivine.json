@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "overworld_ores:blocks/block_of_olivine",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "overworld_ores:block_of_olivine"
+        }
+      ]
+    }
+  ]
+}

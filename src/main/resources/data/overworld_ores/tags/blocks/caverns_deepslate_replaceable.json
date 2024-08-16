@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:deepslate_sapphire_ore",
+    "overworld_ores:deepslate_ruby_ore",
+    "overworld_ores:alexandrite_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore"
+  ]
+}

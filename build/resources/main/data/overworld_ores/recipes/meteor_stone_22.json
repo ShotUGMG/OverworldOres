@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "overworld_ores:meteor_stone_tiles"
+  },
+  "result": "overworld_ores:meteor_stone_tiles_stairs"
+}

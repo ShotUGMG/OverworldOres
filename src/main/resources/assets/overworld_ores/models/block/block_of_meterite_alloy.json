@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/meteorite_alloy",
+    "up": "overworld_ores:block/meteorite_alloy",
+    "north": "overworld_ores:block/meteorite_alloy",
+    "east": "overworld_ores:block/meteorite_alloy",
+    "south": "overworld_ores:block/meteorite_alloy",
+    "west": "overworld_ores:block/meteorite_alloy",
+    "particle": "overworld_ores:block/meteorite_alloy"
+  },
+  "render_type": "solid"
+}

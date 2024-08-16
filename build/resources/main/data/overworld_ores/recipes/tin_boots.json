@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:tin_armor_boots",
+    "count": 1
+  }
+}

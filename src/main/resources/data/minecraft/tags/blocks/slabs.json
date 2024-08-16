@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:polished_meteor_stone_slab",
+    "overworld_ores:stacked_meteor_stone_brick_slab",
+    "overworld_ores:meteor_stone_brick_slab",
+    "overworld_ores:meteor_stone_tiles_slab",
+    "overworld_ores:chiseled_meteor_slab",
+    "overworld_ores:silver_tile_slab",
+    "overworld_ores:s_ilver_brick_slab"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/cut_steel",
+    "up": "overworld_ores:block/cut_steel",
+    "north": "overworld_ores:block/cut_steel",
+    "east": "overworld_ores:block/cut_steel",
+    "south": "overworld_ores:block/cut_steel",
+    "west": "overworld_ores:block/cut_steel",
+    "particle": "overworld_ores:block/cut_steel"
+  },
+  "render_type": "solid"
+}

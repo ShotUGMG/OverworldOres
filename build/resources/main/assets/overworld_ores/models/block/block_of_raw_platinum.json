@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_raw_platinum",
+    "up": "overworld_ores:block/block_of_raw_platinum",
+    "north": "overworld_ores:block/block_of_raw_platinum",
+    "east": "overworld_ores:block/block_of_raw_platinum",
+    "south": "overworld_ores:block/block_of_raw_platinum",
+    "west": "overworld_ores:block/block_of_raw_platinum",
+    "particle": "overworld_ores:block/block_of_raw_platinum"
+  },
+  "render_type": "solid"
+}

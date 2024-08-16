@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "overworld_ores:block/silver_bricks",
+    "top": "overworld_ores:block/silver_bricks",
+    "side": "overworld_ores:block/silver_bricks"
+  },
+  "render_type": "solid"
+}

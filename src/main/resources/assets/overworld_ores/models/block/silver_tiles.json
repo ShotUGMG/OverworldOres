@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/silver_tiles",
+    "up": "overworld_ores:block/silver_tiles",
+    "north": "overworld_ores:block/silver_tiles",
+    "east": "overworld_ores:block/silver_tiles",
+    "south": "overworld_ores:block/silver_tiles",
+    "west": "overworld_ores:block/silver_tiles",
+    "particle": "overworld_ores:block/silver_tiles"
+  },
+  "render_type": "solid"
+}

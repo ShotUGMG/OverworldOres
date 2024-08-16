@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "overworld_ores:crystalline_caverns",
+  "features": "overworld_ores:more_sapphire_ore",
+  "step": "underground_ores"
+}

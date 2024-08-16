@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:tin_pickaxe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:stone_pickaxe",
+    "minecraft:iron_pickaxe",
+    "minecraft:golden_pickaxe",
+    "minecraft:diamond_pickaxe",
+    "minecraft:netherite_pickaxe",
+    "overworld_ores:steel_pickaxe",
+    "overworld_ores:adamantite_pickaxe",
+    "overworld_ores:platinum_pickaxe"
+  ]
+}

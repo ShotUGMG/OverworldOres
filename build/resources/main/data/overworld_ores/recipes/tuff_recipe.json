@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:tuff_rock"
+    }
+  },
+  "result": {
+    "item": "minecraft:tuff",
+    "count": 1
+  }
+}

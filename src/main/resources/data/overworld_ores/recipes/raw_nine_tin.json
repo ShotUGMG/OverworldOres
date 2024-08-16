@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:block_of_raw_tin"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:raw_tin",
+    "count": 9
+  }
+}

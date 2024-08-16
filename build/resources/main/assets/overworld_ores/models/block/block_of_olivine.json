@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_olivine",
+    "up": "overworld_ores:block/block_of_olivine",
+    "north": "overworld_ores:block/block_of_olivine",
+    "east": "overworld_ores:block/block_of_olivine",
+    "south": "overworld_ores:block/block_of_olivine",
+    "west": "overworld_ores:block/block_of_olivine",
+    "particle": "overworld_ores:block/block_of_olivine"
+  },
+  "render_type": "solid"
+}

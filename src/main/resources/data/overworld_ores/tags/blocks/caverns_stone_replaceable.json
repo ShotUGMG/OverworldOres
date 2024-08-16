@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:olivine_ore",
+    "overworld_ores:sapphire_ore",
+    "overworld_ores:ruby_ore",
+    "minecraft:diamond_ore",
+    "minecraft:emerald_ore"
+  ]
+}

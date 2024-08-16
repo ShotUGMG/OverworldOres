@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/metoer_rock",
+    "up": "overworld_ores:block/metoer_rock",
+    "north": "overworld_ores:block/metoer_rock",
+    "east": "overworld_ores:block/metoer_rock",
+    "south": "overworld_ores:block/metoer_rock",
+    "west": "overworld_ores:block/metoer_rock",
+    "particle": "overworld_ores:block/metoer_rock"
+  },
+  "render_type": "solid"
+}

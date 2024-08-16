@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "overworld_ores:block/silver_tile_slab"
+    },
+    "type=top": {
+      "model": "overworld_ores:block/silver_tile_slab_top"
+    },
+    "type=double": {
+      "model": "overworld_ores:block/silver_tile_slab_full"
+    }
+  }
+}

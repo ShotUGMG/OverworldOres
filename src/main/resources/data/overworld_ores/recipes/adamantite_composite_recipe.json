@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "overworld_ores:adamantite_ingot"
+    },
+    {
+      "item": "overworld_ores:obsidian_shard"
+    }
+  ],
+  "result": {
+    "item": "overworld_ores:adamantite_composite",
+    "count": 1
+  }
+}

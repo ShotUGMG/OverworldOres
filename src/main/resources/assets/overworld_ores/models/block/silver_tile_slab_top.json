@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "overworld_ores:block/silver_tiles",
+    "top": "overworld_ores:block/silver_tiles",
+    "side": "overworld_ores:block/silver_tiles"
+  },
+  "render_type": "solid"
+}

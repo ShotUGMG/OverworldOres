@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "overworld_ores:block/polished_meteor_stone_slab"
+    },
+    "type=top": {
+      "model": "overworld_ores:block/polished_meteor_stone_slab_top"
+    },
+    "type=double": {
+      "model": "overworld_ores:block/polished_meteor_stone_slab_full"
+    }
+  }
+}

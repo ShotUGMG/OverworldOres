@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "overworld_ores:blocks/cut_steel",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "overworld_ores:cut_steel"
+        }
+      ]
+    }
+  ]
+}

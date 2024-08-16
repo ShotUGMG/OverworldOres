@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherrackRock"
+      },
+      {
+        "value": "CUSTOM:NetherrackRock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherrackRock"
+      },
+      {
+        "value": "CUSTOM:NetherrackRock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.NETHERRACK"
+    },
+    "name": "netherrack_block",
+    "namespace": "mod"
+  }
+}

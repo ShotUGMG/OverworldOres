@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      },
+      {
+        "value": "CUSTOM:Alexandrite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockOfAlexandrite"
+    },
+    "name": "alexandrite_block",
+    "namespace": "mod"
+  }
+}

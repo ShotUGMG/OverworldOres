@@ -1,0 +1,102 @@
+{
+  "meteormetal.placed": {
+    "subtitle": "subtitles.meteormetal.placed",
+    "sounds": [
+      {
+        "name": "overworld_ores:break1",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break2",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break3",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break4",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break5",
+        "stream": false
+      }
+    ]
+  },
+  "meteormetal.breaking": {
+    "subtitle": "subtitles.meteormetal.breaking",
+    "sounds": [
+      {
+        "name": "overworld_ores:break1",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break2",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break3",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break4",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break5",
+        "stream": false
+      }
+    ]
+  },
+  "meteormetal.broken": {
+    "subtitle": "subtitles.meteormetal.broken",
+    "sounds": [
+      {
+        "name": "overworld_ores:break1",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break2",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break3",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break4",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break5",
+        "stream": false
+      }
+    ]
+  },
+  "meteormetal.step": {
+    "subtitle": "subtitles.meteormetal.step",
+    "sounds": [
+      {
+        "name": "overworld_ores:break1",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break2",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break3",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break4",
+        "stream": false
+      },
+      {
+        "name": "overworld_ores:break5",
+        "stream": false
+      }
+    ]
+  }
+}

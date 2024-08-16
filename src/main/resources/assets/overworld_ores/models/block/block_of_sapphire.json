@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_sapphire",
+    "up": "overworld_ores:block/block_of_sapphire",
+    "north": "overworld_ores:block/block_of_sapphire",
+    "east": "overworld_ores:block/block_of_sapphire",
+    "south": "overworld_ores:block/block_of_sapphire",
+    "west": "overworld_ores:block/block_of_sapphire",
+    "particle": "overworld_ores:block/block_of_sapphire"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "overworld_ores:block/block_of_raw_platinum"
+    }
+  }
+}

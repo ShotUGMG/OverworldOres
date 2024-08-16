@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/chiseled_silver_top",
+    "up": "overworld_ores:block/chiseled_silver_top",
+    "north": "overworld_ores:block/chiseled_silver",
+    "east": "overworld_ores:block/chiseled_silver",
+    "south": "overworld_ores:block/chiseled_silver",
+    "west": "overworld_ores:block/chiseled_silver",
+    "particle": "overworld_ores:block/chiseled_silver_top"
+  },
+  "render_type": "solid"
+}

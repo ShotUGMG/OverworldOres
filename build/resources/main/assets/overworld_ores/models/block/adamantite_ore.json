@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/adamantite_ore",
+    "up": "overworld_ores:block/adamantite_ore",
+    "north": "overworld_ores:block/adamantite_ore",
+    "east": "overworld_ores:block/adamantite_ore",
+    "south": "overworld_ores:block/adamantite_ore",
+    "west": "overworld_ores:block/adamantite_ore",
+    "particle": "overworld_ores:block/adamantite_ore"
+  },
+  "render_type": "solid"
+}

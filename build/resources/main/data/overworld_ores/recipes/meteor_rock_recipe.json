@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:meteor_stone_rock"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:meteor_rock",
+    "count": 1
+  }
+}

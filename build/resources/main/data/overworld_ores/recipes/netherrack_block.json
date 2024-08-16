@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:netherrack_rock"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherrack",
+    "count": 1
+  }
+}

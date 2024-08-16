@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:block_of_raw_silver"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:raw_silver",
+    "count": 9
+  }
+}

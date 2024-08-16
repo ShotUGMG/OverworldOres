@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:OliviniteSmithingTemplate"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.GOLDEN_LEGGINGS"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:MeteoriteAlloy"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:OliviniteArmor.legs"
+    },
+    "name": "gold_legs_upgrade",
+    "namespace": "mod"
+  }
+}

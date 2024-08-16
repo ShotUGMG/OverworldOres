@@ -1,0 +1,56 @@
+{
+  "_fv": 60,
+  "_type": "structure",
+  "definition": {
+    "structure": "meteor_crater",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 8,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MeteorCraterZone"
+      }
+    ],
+    "surfaceDetectionType": "OCEAN_FLOOR_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "size": 2,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "main",
+        "fallbackPool": "overworld_ores:meteor_crater_main",
+        "poolParts": [
+          {
+            "weight": 7,
+            "structure": "meteor",
+            "projection": "terrain_matching",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.AIR"
+              }
+            ]
+          },
+          {
+            "weight": 3,
+            "structure": "olivine_meteor",
+            "projection": "terrain_matching",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.AIR"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

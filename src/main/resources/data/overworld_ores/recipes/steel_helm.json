@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:steel_armor_helmet",
+    "count": 1
+  }
+}

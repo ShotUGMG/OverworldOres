@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "overworld_ores:alexandrite"
+    },
+    "title": {
+      "translate": "advancements.crystalline_caves.title"
+    },
+    "description": {
+      "translate": "advancements.crystalline_caves.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crystalline_caves_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "overworld_ores:crystalline_caverns"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "overworld_ores:from_beyond_the_moon"
+}

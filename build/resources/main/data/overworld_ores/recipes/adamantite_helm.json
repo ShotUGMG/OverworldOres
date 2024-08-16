@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "overworld_ores:adamantite_ingot"
+  },
+  "base": {
+    "item": "overworld_ores:adamantite_upgrade_template"
+  },
+  "addition": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "overworld_ores:admantite_armor_helmet"
+  }
+}

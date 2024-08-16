@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/polished_meteor_stone",
+    "up": "overworld_ores:block/polished_meteor_stone",
+    "north": "overworld_ores:block/polished_meteor_stone",
+    "east": "overworld_ores:block/polished_meteor_stone",
+    "south": "overworld_ores:block/polished_meteor_stone",
+    "west": "overworld_ores:block/polished_meteor_stone",
+    "particle": "overworld_ores:block/polished_meteor_stone"
+  },
+  "render_type": "solid"
+}

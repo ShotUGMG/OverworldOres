@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "overworld_ores:meteor_rock",
+    "overworld_ores:chiseled_meteor_stone",
+    "overworld_ores:meteor_stone_tiles",
+    "overworld_ores:meteor_stone_panels",
+    "overworld_ores:meteor_stone_piller",
+    "overworld_ores:meteor_stone_tiles_stairs",
+    "overworld_ores:polished_meteor_stone",
+    "overworld_ores:meteor_stone_bricks",
+    "overworld_ores:meteor_stone_brick_stairs",
+    "overworld_ores:stacked_meteor_stone_bricks",
+    "overworld_ores:stacked_meteor_stone_brick_stairs",
+    "overworld_ores:polished_meteor_stone_stairs"
+  ]
+}

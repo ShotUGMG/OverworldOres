@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overworld_ores:block/block_of_tin",
+    "up": "overworld_ores:block/block_of_tin",
+    "north": "overworld_ores:block/block_of_tin",
+    "east": "overworld_ores:block/block_of_tin",
+    "south": "overworld_ores:block/block_of_tin",
+    "west": "overworld_ores:block/block_of_tin",
+    "particle": "overworld_ores:block/block_of_tin"
+  },
+  "render_type": "solid"
+}

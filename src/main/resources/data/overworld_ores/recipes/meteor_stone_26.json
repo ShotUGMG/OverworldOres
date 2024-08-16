@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "overworld_ores:stacked_meteor_stone_bricks"
+  },
+  "result": "overworld_ores:stacked_meteor_stone_brick_stairs"
+}

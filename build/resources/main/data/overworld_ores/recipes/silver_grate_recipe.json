@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "overworld_ores:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "overworld_ores:silver_grate",
+    "count": 1
+  }
+}

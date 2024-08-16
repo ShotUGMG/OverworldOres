@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "overworld_ores:polished_meteor_stone"
+  },
+  "result": "overworld_ores:polished_meteor_stone_slab"
+}

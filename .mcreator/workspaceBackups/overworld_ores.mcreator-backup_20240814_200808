@@ -1,0 +1,5867 @@
+{
+  "mod_elements": [
+    {
+      "name": "OverworldOres",
+      "type": "tab",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ores",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other Mod Elemetns"
+    },
+    {
+      "name": "StoneRock",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/StoneRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/stone_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "StoneRocks",
+      "type": "loottable",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/stone.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/tin_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/TinOreBlock.java",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/resources/assets/overworld_ores/models/block/tin_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/tin_ore.json",
+          "src/main/resources/assets/overworld_ores/blockstates/tin_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/tin_ore.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/RawTinItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/raw_tin.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinOreLootTable",
+      "type": "loottable",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/tin_ore.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "BlockOfRawTin",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/block_of_raw_tin.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfRawTinBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_raw_tin.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_raw_tin.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_raw_tin.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "BlockOfTin",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_tin.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_tin.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfTinBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_tin.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_tin.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/TinIngotItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/tin_ingot.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/TinSwordItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/tin_sword.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinPickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/tin_pickaxe.json",
+          "src/main/java/net/mcreator/overworldores/item/TinPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinAxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/TinAxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/tin_axe.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/TinHoeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/tin_hoe.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/TinShovelItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/tin_shovel.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "RawTinBlock",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_tin_block.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinBlock",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_block.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinPick",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_pickaxe.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinSwordRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_sword_recipe.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinShov",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shov",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_shov.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinAx",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ax",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_ax.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinHo",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ho",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_ho.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "SmeltedTin",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelted_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/smelted_tin.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "BlastTin",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/blast_tin.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinArmor",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/tin_armor_chestplate.json",
+          "src/main/resources/assets/overworld_ores/models/item/tin_armor_helmet.json",
+          "src/main/resources/assets/overworld_ores/models/item/tin_armor_boots.json",
+          "src/main/resources/assets/overworld_ores/models/item/tin_armor_leggings.json",
+          "src/main/java/net/mcreator/overworldores/item/TinArmorItem.java"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinChest",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_chest.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinHelm",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_helm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_helm.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinLegs",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_legs.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "TinBoots",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tin_boots.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "AndesiteRock",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/andesite_rock.json",
+          "src/main/java/net/mcreator/overworldores/item/AndesiteRockItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "GraniteRock",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/GraniteRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/granite_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "BlackstoneRock",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/BlackstoneRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/blackstone_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "BasaltRock",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/BasaltRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/basalt_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "DeepslateRock",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/DeepslateRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/deepslate_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "DioriteRock",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/diorite_rock.json",
+          "src/main/java/net/mcreator/overworldores/item/DioriteRockItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "DripstoneRock",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstone_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/dripstone_rock.json",
+          "src/main/java/net/mcreator/overworldores/item/DripstoneRockItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "NetherrackRock",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/netherrack_rock.json",
+          "src/main/java/net/mcreator/overworldores/item/NetherrackRockItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "NetherrackRocks",
+      "type": "loottable",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/netherrack.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "NetherquartzTable",
+      "type": "loottable",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherquartz_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/nether_quartz_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "NetherGold",
+      "type": "loottable",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/nether_gold_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateRockTable",
+      "type": "loottable",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_rock_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DioriteTable",
+      "type": "loottable",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/diorite.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "GraniteTable",
+      "type": "loottable",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/granite.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "BasaltTable",
+      "type": "loottable",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/basalt.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "BlackstoneTable",
+      "type": "loottable",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/blackstone.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "GildedBlackStone",
+      "type": "loottable",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_black_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/gilded_blackstone.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DripstoneTable",
+      "type": "loottable",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/dripstone_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DiamondOreTable",
+      "type": "loottable",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/diamond_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateDiamondTable",
+      "type": "loottable",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_diamond_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_diamond_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "LapisTable",
+      "type": "loottable",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/lapis_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateLapisTable",
+      "type": "loottable",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_lapis_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_lapis_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "RedstoneTalbe",
+      "type": "loottable",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_talbe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/redstone_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "GoldOreTable",
+      "type": "loottable",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/gold_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateGoldTable",
+      "type": "loottable",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_gold_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_gold_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "IronTable",
+      "type": "loottable",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/iron_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateIronTable",
+      "type": "loottable",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_iron_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_iron_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "CoalTable",
+      "type": "loottable",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/coal_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateCoalTable",
+      "type": "loottable",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_coal_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_coal_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "CopperTable",
+      "type": "loottable",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/copper_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateCopperTable",
+      "type": "loottable",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_copper_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_copper_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "AndesiteTable",
+      "type": "loottable",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/andesite.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateRedstoneTable",
+      "type": "loottable",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_redstone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_redstone_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "AndesiteBlock",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/andesite_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "StoneBlock",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/stone_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "GraniteBlock",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/granite_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "DioriteBlock",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/diorite_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "DeepslateBlock",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/deepslate_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "DripstoneBlock",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/dripstone_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "NetherrackBlock",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/netherrack_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "BasaltBlock",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/basalt_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "BlackstoneBlock",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/blackstone_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "RawAncientDebris",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ancient_debris",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/raw_ancient_debris.json",
+          "src/main/java/net/mcreator/overworldores/item/RawAncientDebrisItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "AncientDebrisTable",
+      "type": "loottable",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/ancient_debris.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "CrushedCoalItem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_coal_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/crushed_coal_item.json",
+          "src/main/java/net/mcreator/overworldores/item/CrushedCoalItemItem.java"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "CrushedCoal",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/crushed_coal.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "IronComposite",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_composite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/IronCompositeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/iron_composite.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/SteelIngotItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/steel_ingot.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "IronCompositeRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_composite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/iron_composite_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelIngotBlasting",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_ingot_blasting.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "EmeraldOreTable",
+      "type": "loottable",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/emerald_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "DeepslateEmeraldTable",
+      "type": "loottable",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_emerald_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_emerald_ore.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "Scraps",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/scraps.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "Blastingscraps",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blastingscraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/blastingscraps.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "Chisel",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chisel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/chisel.json",
+          "src/main/java/net/mcreator/overworldores/item/ChiselItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/tools"
+    },
+    {
+      "name": "Chiselrecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiselrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/chiselrecipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/steel_armor_helmet.json",
+          "src/main/java/net/mcreator/overworldores/item/SteelArmorItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/overworld_ores/models/item/steel_armor_boots.json",
+          "src/main/resources/assets/overworld_ores/models/item/steel_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/SteelSwordItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/steel_sword.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/steel_pickaxe.json",
+          "src/main/java/net/mcreator/overworldores/item/SteelPickaxeItem.java"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/SteelAxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/steel_axe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/SteelHoeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/steel_hoe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/SteelShovelItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/steel_shovel.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelHelm",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_helm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_helm.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelChest",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_chest.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelLegs",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_legs.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelBoots",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_boots.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "BlockOfSteel",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_steel.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_steel.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_steel.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_steel.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfSteelBlock.java"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "CutSteel",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/cut_steel.json",
+          "src/main/resources/assets/overworld_ores/blockstates/cut_steel.json",
+          "src/main/resources/assets/overworld_ores/models/item/cut_steel.json",
+          "src/main/java/net/mcreator/overworldores/block/CutSteelBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/cut_steel.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelGrate",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_grate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/SteelGrateBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/steel_grate.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/steel_grate.json",
+          "src/main/resources/assets/overworld_ores/models/item/steel_grate.json",
+          "src/main/resources/assets/overworld_ores/models/block/steel_grate.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/platinum_ore_biome_modifier.json",
+          "src/main/resources/assets/overworld_ores/models/block/platinum_ore.json",
+          "src/main/resources/assets/overworld_ores/blockstates/platinum_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/platinum_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/platinum_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/PlatinumOreBlock.java"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "RawPlatinum",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/RawPlatinumItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/raw_platinum.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/platinum_ingot.json",
+          "src/main/java/net/mcreator/overworldores/item/PlatinumIngotItem.java"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumOreTable",
+      "type": "loottable",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/platinum_ore.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumUpgradeTemplate",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platinum_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/platinum_upgrade_template.json",
+          "src/main/java/net/mcreator/overworldores/item/PlatinumUpgradeTemplateItem.java"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumArmor",
+      "type": "armor",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/platinum_armor_chestplate.json",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_armor_leggings.json",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_armor_boots.json",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_armor_helmet.json",
+          "src/main/java/net/mcreator/overworldores/item/PlatinumArmorItem.java"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "HelmetPlatinumUpgrade",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet_platinum_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/helmet_platinum_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumChestplateUpgrade",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_chestplate_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_chestplate_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumLegsUpgrade",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_legs_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_legs_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumBootsUpgrade",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_boots_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_boots_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumSword",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/platinum_sword.json",
+          "src/main/java/net/mcreator/overworldores/item/PlatinumSwordItem.java"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumPickaxe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/PlatinumPickaxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_pickaxe.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumAxe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/PlatinumAxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_axe.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumHoe",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/PlatinumHoeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_hoe.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumShovel",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/PlatinumShovelItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/platinum_shovel.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumSwordUpgrade",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_sword_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumPickaxeUpgrade",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_pickaxe_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumShovelUpgrade",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_shovel_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumHoeUpgrade",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_hoe_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumAxeUpgrade",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_axe_upgrade.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumTemplateDupe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_template_dupe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_template_dupe.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "BlockOfRawPlatinum",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_raw_platinum.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_raw_platinum.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_raw_platinum.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfRawPlatinumBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_raw_platinum.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "BlockOfPlatinum",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_platinum.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_platinum.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_platinum.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_platinum.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfPlatinumBlock.java"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "RawPlatinumBlock",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_platinum_block.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/platinum_block.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_block.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "CutSteelRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/cut_steel_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelGrateRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/steel_grate_recipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "DeepUnderground",
+      "type": "achievement",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_underground",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/deep_underground.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "StrongerThanIron",
+      "type": "achievement",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stronger_than_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/stronger_than_iron.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RawAncientDebrisItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ancient_debris_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/procedures/RawAncientDebrisItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "ObsidianShard",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/ObsidianShardItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/obsidian_shard.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "ObsidianDrops",
+      "type": "loottable",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/obsidian.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "CryingObi",
+      "type": "loottable",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crying_obi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/crying_obsidian.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "AdamantiteOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/AdamantiteOreBlock.java",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/adamantite_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/adamantite_ore_biome_modifier.json",
+          "src/main/resources/assets/overworld_ores/blockstates/adamantite_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/adamantite_ore.json",
+          "src/main/resources/assets/overworld_ores/models/block/adamantite_ore.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "RawAdamantite",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_adamantite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/raw_adamantite.json",
+          "src/main/java/net/mcreator/overworldores/item/RawAdamantiteItem.java"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteScrap",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_scrap.json",
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteScrapItem.java"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteOreTable",
+      "type": "loottable",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/adamantite_ore.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteScrapRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_scrap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_scrap_recipe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteUpgradeTemplate",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adamantite_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_upgrade_template.json",
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteUpgradeTemplateItem.java"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteTemplateDupe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_template_dupe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_template_dupe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "InbetweenTheBedrock",
+      "type": "achievement",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inbetween_the_bedrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/inbetween_the_bedrock.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AdamantiteIngot",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_ingot.json",
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteIngotItem.java"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "SmithingAdamantiteRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_adamantite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/smithing_adamantite_recipe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteSword",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteSwordItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_sword.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantitePickaxe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/AdamantitePickaxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_pickaxe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteAxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteAxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_axe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteShovel",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_shovel.json",
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteShovelItem.java"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteHoe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteHoeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_hoe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdmantiteArmor",
+      "type": "armor",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admantite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/admantite_armor_boots.json",
+          "src/main/java/net/mcreator/overworldores/item/AdmantiteArmorItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/admantite_armor_chestplate.json",
+          "src/main/resources/assets/overworld_ores/models/item/admantite_armor_helmet.json",
+          "src/main/resources/assets/overworld_ores/models/item/admantite_armor_leggings.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "StrongerThanNetherite",
+      "type": "achievement",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stronger_than_netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/stronger_than_netherite.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlockOfRawAdamantite",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_adamantite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_raw_adamantite.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_raw_adamantite.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfRawAdamantiteBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_raw_adamantite.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_raw_adamantite.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "BlockOfAdamantite",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_adamantite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_adamantite.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_adamantite.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_adamantite.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfAdamantiteBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_adamantite.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteBlockRaw",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_block_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_block_raw.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "MinersHouseTable",
+      "type": "loottable",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miners_house_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/chests/miners_house.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "MinersHouseAttic",
+      "type": "loottable",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miners_house_attic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/chests/miners_house_food.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "MinersHouse",
+      "type": "structure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miners_house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure/miners_house.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/miners_house.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/miners_house_farm_plot.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/miners_house.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/silver_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/SilverOreBlock.java",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/assets/overworld_ores/blockstates/silver_ore.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/RawSilverItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/raw_silver.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/SilverIngotItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/silver_ingot.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverOreTable",
+      "type": "loottable",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_ore.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "Invincible",
+      "type": "achievement",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invincible",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/invincible.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AdamantiteComposite",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_composite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/adamantite_composite.json",
+          "src/main/java/net/mcreator/overworldores/item/AdamantiteCompositeItem.java"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteHelm",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_helm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_helm.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteChest",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_chest.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteLegs",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_legs.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteBoots",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_boots.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantitePick",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_pick.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteSpade",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_spade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_spade.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "AdamantiteCompositeRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_composite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_composite_recipe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/silver_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverOreBlasting",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/silver_ore_blasting.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "BlockOfRawSilver",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_raw_silver.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_raw_silver.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfRawSilverBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_raw_silver.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_raw_silver.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "BlockOfSilver",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/block_of_silver.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_silver.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_silver.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_silver.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfSilverBlock.java"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBricks",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_bricks.json",
+          "src/main/java/net/mcreator/overworldores/block/SilverBricksBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/silver_bricks.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_bricks.json",
+          "src/main/resources/assets/overworld_ores/blockstates/silver_bricks.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverTiles",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/silver_tiles.json",
+          "src/main/java/net/mcreator/overworldores/block/SilverTilesBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tiles.json",
+          "src/main/resources/assets/overworld_ores/models/item/silver_tiles.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_tiles.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "ChisledSilver",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chisled_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/chisled_silver.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/chisled_silver.json",
+          "src/main/java/net/mcreator/overworldores/block/ChisledSilverBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/chisled_silver.json",
+          "src/main/resources/assets/overworld_ores/models/block/chisled_silver.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBricksRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/silver_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverTilesRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/silver_tiles_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "ChiseledSilverRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_silver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/chiseled_silver_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "NineSilverIngots",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_silver_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_silver_ingots.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "NineSteelIngots",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_steel_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_steel_ingots.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "SilverGrate",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_grate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/silver_grate.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_grate.json",
+          "src/main/resources/assets/overworld_ores/models/item/silver_grate.json",
+          "src/main/java/net/mcreator/overworldores/block/SilverGrateBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/silver_grate.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverGrateRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/silver_grate_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "NineTinIngots",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_tin_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_tin_ingots.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "RawNineTin",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nine_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_nine_tin.json"
+        ]
+      },
+      "path": "~/Tin"
+    },
+    {
+      "name": "RawNinePlatinum",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nine_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_nine_platinum.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "NinePlatinum",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_platinum.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "NineAdamantite",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_adamantite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_adamantite.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "RawNineAdamantite",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nine_adamantite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_nine_adamantite.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "RawNineSilver",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nine_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_nine_silver.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "RawSilverRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/raw_silver_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBlockRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/silver_block_recipe.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SmithingTemplateTable",
+      "type": "loottable",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "smithing_template_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/abandoned_mineshaft.json"
+        ]
+      },
+      "path": "~/Platinum"
+    },
+    {
+      "name": "AdamantiteDupe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantite_dupe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/adamantite_dupe.json"
+        ]
+      },
+      "path": "~/Adamantite"
+    },
+    {
+      "name": "StoneAgeAd",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_age_ad",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/procedures/StoneAgeAdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "CalciteRock",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcite_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/CalciteRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/calcite_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "MossyStoneRock",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_stone_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/mossy_stone_rock.json",
+          "src/main/java/net/mcreator/overworldores/item/MossyStoneRockItem.java"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "TuffRock",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/TuffRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/tuff_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "CobblestoneTable",
+      "type": "loottable",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/cobblestone.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "MossystoneTable",
+      "type": "loottable",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossystone_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/mossy_cobblestone.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "CalciteTalbe",
+      "type": "loottable",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcite_talbe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/calcite.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "TuffTable",
+      "type": "loottable",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/tuff.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "SilverBrickStairs",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_brick_stairs_outer.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_brick_stairs_inner.json",
+          "src/main/resources/assets/overworld_ores/blockstates/silver_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/item/silver_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_brick_stairs.json",
+          "src/main/java/net/mcreator/overworldores/block/SilverBrickStairsBlock.java"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverTileStairs",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/silver_tile_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tile_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tile_stairs_outer.json",
+          "src/main/java/net/mcreator/overworldores/block/SilverTileStairsBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/silver_tile_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tile_stairs_inner.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_tile_stairs.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SIlverBrickSlab",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_ilver_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/s_ilver_brick_slab_full.json",
+          "src/main/resources/assets/overworld_ores/blockstates/s_ilver_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/item/s_ilver_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/s_ilver_brick_slab.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/s_ilver_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/s_ilver_brick_slab_top.json",
+          "src/main/java/net/mcreator/overworldores/block/SIlverBrickSlabBlock.java"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverTileSlab",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/SilverTileSlabBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tile_slab_top.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tile_slab.json",
+          "src/main/resources/assets/overworld_ores/models/item/silver_tile_slab.json",
+          "src/main/resources/assets/overworld_ores/blockstates/silver_tile_slab.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/silver_tile_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/silver_tile_slab_full.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "MeteorRock",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/meteor_rock.json",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_rock.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorRockBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_rock.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_rock.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorCraterZone",
+      "type": "biome",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_crater_zone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/meteor_crater_zone_tree.json",
+          "src/main/resources/data/overworld_ores/worldgen/biome/meteor_crater_zone.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/meteor_crater_zone_tree.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorCrater",
+      "type": "structure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_crater",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_crater.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_crater.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_crater.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_crater_main.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorDebris1",
+      "type": "structure",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_debris_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_debris_1.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_debris_1.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_debris_1.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorDebris2",
+      "type": "structure",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_debris_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_debris_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_debris_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_debris_2.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorCrater3",
+      "type": "structure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_crater_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_crater_3.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_crater_3.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_crater_3.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorCrater4",
+      "type": "structure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_crater_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_crater_4.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_crater_4.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_crater_4.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorDebrisLarge1",
+      "type": "structure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_debris_large_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_debris_large_1.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_debris_large_1.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_debris_large_1.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorDebrisLarge2",
+      "type": "structure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_debris_large_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_debris_large_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_debris_large_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_debris_large_2.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorDebrisLarge3",
+      "type": "structure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_debris_large_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_debris_large_3.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_debris_large_3.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_debris_large_3.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorOlivineOre",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_olivine_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/meteor_olivine_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_olivine_ore.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_olivine_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorOlivineOreBlock.java"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorOlivine1",
+      "type": "structure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_olivine_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_olivine_1.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_olivine_1.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_olivine_1.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteorOlivine2",
+      "type": "structure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_olivine_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/meteor_olivine_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/meteor_olivine_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure/meteor_olivine_2.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "Olivine",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/OlivineItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivine.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "Meteorite",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/meteorite.json",
+          "src/main/java/net/mcreator/overworldores/item/MeteoriteItem.java"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivineDrops",
+      "type": "loottable",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_olivine_ore.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MetoerMetal",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metoer_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/metoer_metal.json",
+          "src/main/resources/assets/overworld_ores/blockstates/metoer_metal.json",
+          "src/main/java/net/mcreator/overworldores/block/MetoerMetalBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/metoer_metal.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteMetal",
+      "type": "loottable",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/metoer_metal.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteScraps",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_scraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/meteorite_scraps.json",
+          "src/main/java/net/mcreator/overworldores/item/MeteoriteScrapsItem.java"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteComposite",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_composite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/meteorite_composite.json",
+          "src/main/java/net/mcreator/overworldores/item/MeteoriteCompositeItem.java"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivineNugget",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/OlivineNuggetItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivine_nugget.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteAlloy",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_alloy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/MeteoriteAlloyItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/meteorite_alloy.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "BlockOfOlivine",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_olivine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/block_of_olivine.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfOlivineBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_olivine.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_olivine.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_olivine.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "BlockOfMeteriteAlloy",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_meterite_alloy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/block_of_meterite_alloy.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_meterite_alloy.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfMeteriteAlloyBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_meterite_alloy.json",
+          "src/main/resources/assets/overworld_ores/models/block/block_of_meterite_alloy.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivineNuggets",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/olivine_nuggets.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "CrushedCoalExt",
+      "type": "itemextension",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_coal_ext",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "MeteoriteCompositeRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_composite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteorite_composite_recipe.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteScrapsRecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_scraps_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteorite_scraps_recipe.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteScrapsBlasting",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_scraps_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteorite_scraps_blasting.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteAlloySmelt",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_alloy_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteorite_alloy_smelt.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteAlloyBlasting",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_alloy_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteorite_alloy_blasting.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MeteoriteBlock",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteorite_block.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivineBlock",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/olivine_block.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivineDebris",
+      "type": "structure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_debris",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure/olivine_debris.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/olivine_debris.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/olivine_debris.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivineDebris2",
+      "type": "structure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_debris_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/structure/olivine_debris_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/template_pool/olivine_debris_2.json",
+          "src/main/resources/data/overworld_ores/worldgen/structure_set/olivine_debris_2.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "MossyStoneRecipe",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/mossy_stone_recipe.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "CalciteRecipe",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/calcite_recipe.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "TuffRecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/tuff_recipe.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "MeteorStoneRock",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/MeteorStoneRockItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/rocks"
+    },
+    {
+      "name": "MeteorRockRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_rock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_rock_recipe.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes/Recipes"
+    },
+    {
+      "name": "OliviniteArmor",
+      "type": "armor",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivinite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_armor_leggings.json",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_armor_boots.json",
+          "src/main/java/net/mcreator/overworldores/item/OliviniteArmorItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_armor_helmet.json",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OliviniteSword",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivinite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_sword.json",
+          "src/main/java/net/mcreator/overworldores/item/OliviniteSwordItem.java"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OlivinitePickaxe",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivinite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/OlivinitePickaxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_pickaxe.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OliviniteShovel",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivinite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/OliviniteShovelItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_shovel.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OliviniteAxe",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivinite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/OliviniteAxeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_axe.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OliviniteHoe",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivinite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/OliviniteHoeItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_hoe.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "OliviniteSmithingTemplate",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "olivinite_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/olivinite_smithing_template.json",
+          "src/main/java/net/mcreator/overworldores/item/OliviniteSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldHelmUpgrade",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_helm_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_helm_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldChestUpgrade",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_chest_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_chest_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldLegsUpgrade",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_legs_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_legs_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldBootsUpgrade",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_boots_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_boots_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldSwordUpgrade",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_sword_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_sword_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldPickUpgrade",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_pick_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_pick_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldAxeUpgrade",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_axe_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_axe_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldHoeUpgrade",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_hoe_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_hoe_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "GoldShovUpgrade",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_shov_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/gold_shov_upgrade.json"
+        ]
+      },
+      "path": "~/Meteorite"
+    },
+    {
+      "name": "FromBeyondTheMoon",
+      "type": "achievement",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "from_beyond_the_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/from_beyond_the_moon.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ANewMetal",
+      "type": "achievement",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_new_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/a_new_metal.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GoldRepurposed",
+      "type": "achievement",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_repurposed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/gold_repurposed.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ChiseledMeteorStone",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_meteor_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/chiseled_meteor_stone.json",
+          "src/main/resources/assets/overworld_ores/models/item/chiseled_meteor_stone.json",
+          "src/main/java/net/mcreator/overworldores/block/ChiseledMeteorStoneBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/chiseled_meteor_stone.json",
+          "src/main/resources/assets/overworld_ores/models/block/chiseled_meteor_stone.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "ChiseledMeteorSlab",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_meteor_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/ChiseledMeteorSlabBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/chiseled_meteor_slab.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/chiseled_meteor_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/chiseled_meteor_slab_top.json",
+          "src/main/resources/assets/overworld_ores/models/block/chiseled_meteor_slab_full.json",
+          "src/main/resources/assets/overworld_ores/models/item/chiseled_meteor_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/chiseled_meteor_slab.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneTiles",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_tiles.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneTilesBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles.json",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_tiles.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_tiles.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStonePanels",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_panels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_panels.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_panels.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_panels.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStonePanelsBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_panels.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStonePiller",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_piller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_piller.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_piller.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStonePillerBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_piller.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_piller.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneTilesSlab",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_tiles_slab.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_tiles_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles_slab_full.json",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_tiles_slab.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneTilesSlabBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles_slab_top.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles_slab.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneTilesStairs",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_tiles_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_tiles_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles_stairs_outer.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneTilesStairsBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles_stairs_inner.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_tiles_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_tiles_stairs.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "PolishedMeteorStone",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_meteor_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/PolishedMeteorStoneBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/polished_meteor_stone.json",
+          "src/main/resources/assets/overworld_ores/blockstates/polished_meteor_stone.json",
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone.json",
+          "src/main/resources/assets/overworld_ores/models/item/polished_meteor_stone.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneBricks",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneBricksBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_bricks.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_bricks.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_bricks.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_bricks.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneBrickStairs",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_brick_stairs.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_brick_stairs.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneBrickStairsBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_brick_stairs_outer.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneBrickSlab",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_brick_slab_top.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneBrickSlabBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_brick_slab.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "StackedMeteorStoneBricks",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stacked_meteor_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_bricks.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/stacked_meteor_stone_bricks.json",
+          "src/main/resources/assets/overworld_ores/models/item/stacked_meteor_stone_bricks.json",
+          "src/main/java/net/mcreator/overworldores/block/StackedMeteorStoneBricksBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/stacked_meteor_stone_bricks.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "StackedMeteorStoneBrickSlab",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stacked_meteor_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_brick_slab_full.json",
+          "src/main/java/net/mcreator/overworldores/block/StackedMeteorStoneBrickSlabBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/stacked_meteor_stone_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_brick_slab_top.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/stacked_meteor_stone_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_brick_slab.json",
+          "src/main/resources/assets/overworld_ores/blockstates/stacked_meteor_stone_brick_slab.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "StackedMeteorStoneBrickStairs",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stacked_meteor_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/block/StackedMeteorStoneBrickStairsBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/stacked_meteor_stone_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_brick_stairs_outer.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/stacked_meteor_stone_brick_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/stacked_meteor_stone_brick_stairs_inner.json",
+          "src/main/resources/assets/overworld_ores/models/item/stacked_meteor_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "PolishedMeteorStoneStairs",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_meteor_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/polished_meteor_stone_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone_stairs_inner.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/polished_meteor_stone_stairs.json",
+          "src/main/resources/assets/overworld_ores/blockstates/polished_meteor_stone_stairs.json",
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone_stairs.json",
+          "src/main/java/net/mcreator/overworldores/block/PolishedMeteorStoneStairsBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone_stairs_outer.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "PolishedMeteorStoneSlab",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_meteor_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone_slab.json",
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone_slab_top.json",
+          "src/main/resources/assets/overworld_ores/models/item/polished_meteor_stone_slab.json",
+          "src/main/resources/assets/overworld_ores/blockstates/polished_meteor_stone_slab.json",
+          "src/main/java/net/mcreator/overworldores/block/PolishedMeteorStoneSlabBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/polished_meteor_stone_slab_full.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/polished_meteor_stone_slab.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStoneWall",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_wall_post.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_wall.json",
+          "src/main/java/net/mcreator/overworldores/block/MeteorStoneWallBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_wall_side_tall.json",
+          "src/main/resources/assets/overworld_ores/models/item/meteor_stone_wall.json",
+          "src/main/resources/assets/overworld_ores/models/block/meteor_stone_wall_inventory.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_stone_wall.json",
+          "src/main/resources/assets/overworld_ores/blockstates/meteor_stone_wall.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "DirtDrops",
+      "type": "loottable",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/dirt.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "GrassBlock",
+      "type": "loottable",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/grass_block.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    },
+    {
+      "name": "MeteorStone1",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_1.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone2",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_2.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone3",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_3.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone4",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_4.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone5",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_5.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone6",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_6.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone7",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_7.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone8",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_8.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone9",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_9.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone10",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_10.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone11",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_11.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone12",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_12.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone13",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_13.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone14",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_14.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone15",
+      "type": "recipe",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_15.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone16",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_16",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_16.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone17",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_17",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_17.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone18",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_18",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_18.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone19",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_19",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_19.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone20",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_20",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_20.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone21",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_21",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_21.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone22",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_22",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_22.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone23",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_23",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_23.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone24",
+      "type": "recipe",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_24",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_24.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone25",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_25",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_25.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "MeteorStone26",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_stone_26",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/meteor_stone_26.json"
+        ]
+      },
+      "path": "~/Meteorite/MeteorStone"
+    },
+    {
+      "name": "Miner",
+      "type": "villagerprofession",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "CrystallineCaverns",
+      "type": "biome",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalline_caverns",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/biome/crystalline_caverns.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "OlivineOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/olivine_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/overworldores/block/OlivineOreBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/olivine_ore.json",
+          "src/main/resources/assets/overworld_ores/models/block/olivine_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/olivine_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/olivine_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/olivine_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/sapphire_ore.json",
+          "src/main/resources/assets/overworld_ores/models/block/sapphire_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/sapphire_ore.json",
+          "src/main/resources/assets/overworld_ores/blockstates/sapphire_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/SapphireOreBlock.java",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/sapphire_ore_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/sapphire_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "DeepslateSapphireOre",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/deepslate_sapphire_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/deepslate_sapphire_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/DeepslateSapphireOreBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/deepslate_sapphire_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/deepslate_sapphire_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/deepslate_sapphire_ore_biome_modifier.json",
+          "src/main/resources/assets/overworld_ores/blockstates/deepslate_sapphire_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/ruby_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/ruby_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/RubyOreBlock.java",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/overworld_ores/blockstates/ruby_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/ruby_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "DeepslateRubyOre",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/blockstates/deepslate_ruby_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/deepslate_ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/overworld_ores/models/block/deepslate_ruby_ore.json",
+          "src/main/java/net/mcreator/overworldores/block/DeepslateRubyOreBlock.java",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/deepslate_ruby_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/deepslate_ruby_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/deepslate_ruby_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "AlexandriteOre",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alexandrite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/alexandrite_ore.json",
+          "src/main/resources/assets/overworld_ores/blockstates/alexandrite_ore.json",
+          "src/main/resources/assets/overworld_ores/models/item/alexandrite_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/alexandrite_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/alexandrite_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/overworldores/block/AlexandriteOreBlock.java",
+          "src/main/resources/assets/overworld_ores/models/block/alexandrite_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "RubyOreUpper",
+      "type": "feature",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_upper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/ruby_ore_upper_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/ruby_ore_upper.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/ruby_ore_upper.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "MoreSapphireOre",
+      "type": "feature",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/more_sapphire_ore_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/more_sapphire_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/more_sapphire_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "MoreAlexandriteOre",
+      "type": "feature",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_alexandrite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/more_alexandrite_ore_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/more_alexandrite_ore.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/more_alexandrite_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "MoreEmeraldOre",
+      "type": "feature",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_emerald_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/more_emerald_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/more_emerald_ore_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/more_emerald_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "MoreDiamondOre",
+      "type": "feature",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/worldgen/placed_feature/more_diamond_ore.json",
+          "src/main/resources/data/overworld_ores/forge/biome_modifier/more_diamond_ore_biome_modifier.json",
+          "src/main/resources/data/overworld_ores/worldgen/configured_feature/more_diamond_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/RubyItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/ruby.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/item/sapphire.json",
+          "src/main/java/net/mcreator/overworldores/item/SapphireItem.java"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "Alexandrite",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alexandrite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/overworldores/item/AlexandriteItem.java",
+          "src/main/resources/assets/overworld_ores/models/item/alexandrite.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "RubyOreTable",
+      "type": "loottable",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/ruby_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "DeepRubyOreTable",
+      "type": "loottable",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_ruby_ore_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/deepslate_ruby_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "AlexandriteTable",
+      "type": "loottable",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alexandrite_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/alexandrite_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "SapphireTable",
+      "type": "loottable",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/sapphire_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "DeepSapphireOre",
+      "type": "loottable",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/deepslate_sapphire_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "OlivineTable",
+      "type": "loottable",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olivine_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/olivine_ore.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "BlockOfAlexandrite",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_alexandrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/block_of_alexandrite.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfAlexandriteBlock.java",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_alexandrite.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_alexandrite.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_alexandrite.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "BlockOfRuby",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/block_of_ruby.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_ruby.json",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_ruby.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfRubyBlock.java",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_ruby.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "BlockOfSapphire",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/overworld_ores/models/block/block_of_sapphire.json",
+          "src/main/resources/assets/overworld_ores/models/item/block_of_sapphire.json",
+          "src/main/resources/assets/overworld_ores/blockstates/block_of_sapphire.json",
+          "src/main/java/net/mcreator/overworldores/block/BlockOfSapphireBlock.java",
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/block_of_sapphire.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/ruby_block.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "NineRuby",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_ruby.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "AlexandriteBlock",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alexandrite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/alexandrite_block.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "NineAlexandrite",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_alexandrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_alexandrite.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "SappgireBlock",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sappgire_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/sappgire_block.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "NineSapphire",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/recipes/nine_sapphire.json"
+        ]
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "MinerVillagerTrades",
+      "type": "villagertrade",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_villager_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gems"
+    },
+    {
+      "name": "CrystallineCaves",
+      "type": "achievement",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalline_caves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/crystalline_caves.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AllGems",
+      "type": "achievement",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_gems",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/advancements/all_gems.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MeteorRockTable",
+      "type": "loottable",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteor_rock_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/overworld_ores/loot_tables/blocks/meteor_rock.json"
+        ]
+      },
+      "path": "~/Other Mod Elemetns/LootTables-Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "meteormetal.placed",
+      "files": [
+        "break1",
+        "break2",
+        "break3",
+        "break4",
+        "break5"
+      ],
+      "category": "block",
+      "subtitle": "Block placed"
+    },
+    {
+      "name": "meteormetal.breaking",
+      "files": [
+        "break1",
+        "break2",
+        "break3",
+        "break4",
+        "break5"
+      ],
+      "category": "block",
+      "subtitle": "Block breaking"
+    },
+    {
+      "name": "meteormetal.broken",
+      "files": [
+        "break1",
+        "break2",
+        "break3",
+        "break4",
+        "break5"
+      ],
+      "category": "block",
+      "subtitle": "Block broken"
+    },
+    {
+      "name": "meteormetal.step",
+      "files": [
+        "break1",
+        "break2",
+        "break3",
+        "break4",
+        "break5"
+      ],
+      "category": "block",
+      "subtitle": "Footsteps"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:CrystallineCaverns",
+      "~CUSTOM:MeteorCraterZone"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BlockOfSapphire",
+      "~CUSTOM:BlockOfRuby",
+      "~CUSTOM:BlockOfAlexandrite",
+      "~CUSTOM:AlexandriteOre",
+      "~CUSTOM:DeepslateRubyOre",
+      "~CUSTOM:RubyOre",
+      "~CUSTOM:DeepslateSapphireOre",
+      "~CUSTOM:SapphireOre",
+      "~CUSTOM:OlivineOre",
+      "~CUSTOM:MeteorStoneWall",
+      "~CUSTOM:PolishedMeteorStoneSlab",
+      "~CUSTOM:PolishedMeteorStoneStairs",
+      "~CUSTOM:StackedMeteorStoneBrickStairs",
+      "~CUSTOM:StackedMeteorStoneBrickSlab",
+      "~CUSTOM:StackedMeteorStoneBricks",
+      "~CUSTOM:MeteorStoneBrickSlab",
+      "~CUSTOM:MeteorStoneBrickStairs",
+      "~CUSTOM:MeteorStoneBricks",
+      "~CUSTOM:PolishedMeteorStone",
+      "~CUSTOM:MeteorStoneTilesStairs",
+      "~CUSTOM:MeteorStoneTilesSlab",
+      "~CUSTOM:MeteorStonePiller",
+      "~CUSTOM:MeteorStonePanels",
+      "~CUSTOM:MeteorStoneTiles",
+      "~CUSTOM:ChiseledMeteorSlab",
+      "~CUSTOM:BlockOfMeteriteAlloy",
+      "~CUSTOM:BlockOfOlivine",
+      "~CUSTOM:MetoerMetal",
+      "~CUSTOM:MeteorOlivineOre",
+      "~CUSTOM:SilverTileSlab",
+      "~CUSTOM:SIlverBrickSlab",
+      "~CUSTOM:SilverTileStairs",
+      "~CUSTOM:SilverBrickStairs",
+      "~CUSTOM:SilverGrate",
+      "~CUSTOM:ChisledSilver",
+      "~CUSTOM:SilverTiles",
+      "~CUSTOM:SilverBricks",
+      "~CUSTOM:BlockOfSilver",
+      "~CUSTOM:BlockOfRawSilver",
+      "~CUSTOM:SilverOre",
+      "~CUSTOM:SteelGrate",
+      "~CUSTOM:CutSteel",
+      "~CUSTOM:BlockOfSteel",
+      "CUSTOM:MeteorRock"
+    ],
+    "BLOCKS:mod:caverns_stone_replaceable": [
+      "CUSTOM:OlivineOre",
+      "CUSTOM:SapphireOre",
+      "CUSTOM:RubyOre",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.EMERALD_ORE"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:BlockOfAdamantite",
+      "~CUSTOM:BlockOfRawAdamantite",
+      "~CUSTOM:AdamantiteOre",
+      "~CUSTOM:BlockOfPlatinum",
+      "~CUSTOM:BlockOfRawPlatinum",
+      "~CUSTOM:PlatinumOre"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:MeteorCraterZone"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:CrystallineCaverns"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "CUSTOM:TinPickaxe",
+      "Items.WOODEN_PICKAXE",
+      "Items.STONE_PICKAXE",
+      "Items.IRON_PICKAXE",
+      "Items.GOLDEN_PICKAXE",
+      "Items.DIAMOND_PICKAXE",
+      "Items.NETHERITE_PICKAXE",
+      "CUSTOM:SteelPickaxe",
+      "CUSTOM:AdamantitePickaxe",
+      "CUSTOM:PlatinumPickaxe"
+    ],
+    "BLOCKS:mod:caverns_deepslate_replaceable": [
+      "CUSTOM:DeepslateSapphireOre",
+      "CUSTOM:DeepslateRubyOre",
+      "CUSTOM:AlexandriteOre",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE"
+    ],
+    "BLOCKS:mod:ruby_ores": [
+      "CUSTOM:RubyOre",
+      "CUSTOM:DeepslateRubyOre"
+    ],
+    "BLOCKS:mod:meteor_slabs": [
+      "CUSTOM:ChiseledMeteorSlab",
+      "CUSTOM:MeteorStoneTilesSlab",
+      "CUSTOM:MeteorStoneBrickSlab",
+      "CUSTOM:StackedMeteorStoneBrickSlab",
+      "CUSTOM:PolishedMeteorStoneSlab",
+      "CUSTOM:MeteorStoneWall"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:CrystallineCaverns",
+      "~CUSTOM:MeteorCraterZone"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:CrystallineCaverns"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlockOfSapphire",
+      "~CUSTOM:BlockOfRuby",
+      "~CUSTOM:BlockOfAlexandrite",
+      "~CUSTOM:AlexandriteOre",
+      "~CUSTOM:DeepslateRubyOre",
+      "~CUSTOM:RubyOre",
+      "~CUSTOM:DeepslateSapphireOre",
+      "~CUSTOM:SapphireOre",
+      "~CUSTOM:OlivineOre",
+      "~CUSTOM:MeteorStoneWall",
+      "~CUSTOM:PolishedMeteorStoneSlab",
+      "~CUSTOM:PolishedMeteorStoneStairs",
+      "~CUSTOM:StackedMeteorStoneBrickStairs",
+      "~CUSTOM:StackedMeteorStoneBrickSlab",
+      "~CUSTOM:StackedMeteorStoneBricks",
+      "~CUSTOM:MeteorStoneBrickSlab",
+      "~CUSTOM:MeteorStoneBrickStairs",
+      "~CUSTOM:MeteorStoneBricks",
+      "~CUSTOM:PolishedMeteorStone",
+      "~CUSTOM:MeteorStoneTilesStairs",
+      "~CUSTOM:MeteorStoneTilesSlab",
+      "~CUSTOM:MeteorStonePiller",
+      "~CUSTOM:MeteorStonePanels",
+      "~CUSTOM:MeteorStoneTiles",
+      "~CUSTOM:ChiseledMeteorSlab",
+      "~CUSTOM:ChiseledMeteorStone",
+      "~CUSTOM:BlockOfMeteriteAlloy",
+      "~CUSTOM:BlockOfOlivine",
+      "~CUSTOM:MetoerMetal",
+      "~CUSTOM:MeteorOlivineOre",
+      "~CUSTOM:MeteorRock",
+      "~CUSTOM:SilverTileSlab",
+      "~CUSTOM:SIlverBrickSlab",
+      "~CUSTOM:SilverTileStairs",
+      "~CUSTOM:SilverBrickStairs",
+      "~CUSTOM:SilverGrate",
+      "~CUSTOM:ChisledSilver",
+      "~CUSTOM:SilverTiles",
+      "~CUSTOM:SilverBricks",
+      "~CUSTOM:BlockOfSilver",
+      "~CUSTOM:BlockOfRawSilver",
+      "~CUSTOM:SilverOre",
+      "~CUSTOM:BlockOfAdamantite",
+      "~CUSTOM:BlockOfRawAdamantite",
+      "~CUSTOM:AdamantiteOre",
+      "~CUSTOM:BlockOfPlatinum",
+      "~CUSTOM:BlockOfRawPlatinum",
+      "~CUSTOM:PlatinumOre",
+      "~CUSTOM:SteelGrate",
+      "~CUSTOM:CutSteel",
+      "~CUSTOM:BlockOfSteel",
+      "~CUSTOM:BlockOfTin",
+      "~CUSTOM:BlockOfRawTin",
+      "~CUSTOM:TinOre"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PolishedMeteorStoneSlab",
+      "~CUSTOM:StackedMeteorStoneBrickSlab",
+      "~CUSTOM:MeteorStoneBrickSlab",
+      "~CUSTOM:MeteorStoneTilesSlab",
+      "~CUSTOM:ChiseledMeteorSlab",
+      "~CUSTOM:SilverTileSlab",
+      "~CUSTOM:SIlverBrickSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:BlockOfTin",
+      "~CUSTOM:BlockOfRawTin",
+      "~CUSTOM:TinOre"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:MeteorStoneWall"
+    ],
+    "BLOCKS:mod:obsidianblocks": [
+      "Blocks.OBSIDIAN",
+      "Blocks.CRYING_OBSIDIAN"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PolishedMeteorStoneStairs",
+      "~CUSTOM:StackedMeteorStoneBrickStairs",
+      "~CUSTOM:MeteorStoneBrickStairs",
+      "~CUSTOM:MeteorStoneTilesStairs",
+      "~CUSTOM:SilverTileStairs",
+      "~CUSTOM:SilverBrickStairs"
+    ],
+    "BLOCKS:mod:meteor_blocks": [
+      "CUSTOM:MeteorRock",
+      "CUSTOM:ChiseledMeteorStone",
+      "CUSTOM:MeteorStoneTiles",
+      "CUSTOM:MeteorStonePanels",
+      "CUSTOM:MeteorStonePiller",
+      "CUSTOM:MeteorStoneTilesStairs",
+      "CUSTOM:PolishedMeteorStone",
+      "CUSTOM:MeteorStoneBricks",
+      "CUSTOM:MeteorStoneBrickStairs",
+      "CUSTOM:StackedMeteorStoneBricks",
+      "CUSTOM:StackedMeteorStoneBrickStairs",
+      "CUSTOM:PolishedMeteorStoneStairs"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:MeteorCraterZone"
+    ],
+    "BIOMES:minershousespawnable:tag": [
+      "plains",
+      "forest",
+      "mutated_forest",
+      "mutated_plains",
+      "grove",
+      "birch_forest",
+      "taiga",
+      "cherry_grove"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.overworld_ores.silver_ore": "Silver Ore",
+      "advancements.stronger_than_netherite.title": "Stronger Than Netherite",
+      "item.overworld_ores.olivinite_armor_chestplate": "Olivinite Chestplate",
+      "block.overworld_ores.alexandrite_ore": "Alexandrite Ore",
+      "item.overworld_ores.platinum_shovel": "Platinum Shovel",
+      "block.overworld_ores.block_of_alexandrite": "Block Of Alexandrite",
+      "block.overworld_ores.s_ilver_brick_slab": "Silver Brick Slab",
+      "item.overworld_ores.meteorite_composite": "Olivinite Composite",
+      "block.overworld_ores.polished_meteor_stone_slab": "Polished Meteor Stone Slab",
+      "block.overworld_ores.stacked_meteor_stone_brick_slab": "Stacked Meteor Stone Brick Slab",
+      "item.overworld_ores.meteorite_scraps": "Meteorite Scraps",
+      "block.overworld_ores.block_of_raw_silver": "Block Of Raw Silver",
+      "block.overworld_ores.silver_brick_stairs": "Silver Brick Stairs",
+      "advancements.all_gems.descr": "Obtain all gems",
+      "item.overworld_ores.platinum_armor_helmet": "Platinum Helmet",
+      "subtitles.silver.block.break": "Block broken",
+      "item.overworld_ores.olivinite_shovel": "Olivinite Shovel",
+      "item.overworld_ores.olivinite_sword": "Olivinite Sword",
+      "item.overworld_ores.adamantite_ingot": "Adamantite Ingot",
+      "block.overworld_ores.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+      "block.overworld_ores.block_of_raw_platinum": "Block Of Raw Platinum",
+      "block.overworld_ores.meteor_olivine_ore": "Meteor Olivine Ore",
+      "advancements.a_new_metal.title": "A Crysalline Metal",
+      "item.overworld_ores.iron_composite": "Iron Composite",
+      "subtitles.meteormetal.placed": "Block placed",
+      "subtitles.meteormetal.broken": "Block broken",
+      "item.overworld_ores.steel_ingot": "Steel Ingot",
+      "block.overworld_ores.meteor_stone_tiles": "Meteor Stone Tiles",
+      "item.overworld_ores.adamantite_scrap": "Adamantite Scrap",
+      "block.overworld_ores.olivine_ore": "Olivine Ore",
+      "item.overworld_ores.tin_shovel": "Tin Shovel",
+      "item.overworld_ores.obsidian_shard": "Obsidian Shard",
+      "item.overworld_ores.adamantite_composite": "Adamantite Composite",
+      "block.overworld_ores.meteor_rock": "Meteor Rock",
+      "item.overworld_ores.tin_sword": "Tin Sword",
+      "advancements.crystalline_caves.title": "Miners Dream",
+      "item.overworld_ores.tin_armor_boots": "Tin Boots",
+      "item.overworld_ores.raw_tin": "Raw Tin",
+      "item.overworld_ores.platinum_hoe": "Platinum Hoe",
+      "item.overworld_ores.blackstone_rock": "Blackstone Rock",
+      "item.overworld_ores.meteorite_alloy": "Olivinite Ingot",
+      "block.overworld_ores.block_of_raw_adamantite": "Block Of Raw Adamantite",
+      "item.overworld_ores.netherrack_rock": "Netherrack Rock",
+      "block.overworld_ores.block_of_adamantite": "Block Of Adamantite",
+      "item.overworld_ores.platinum_armor_chestplate": "Platinum Chestplate",
+      "block.overworld_ores.silver_bricks": "Silver Bricks",
+      "block.overworld_ores.block_of_olivine": "Block Of Olivine",
+      "item.overworld_ores.platinum_upgrade_template": "Smithing Template",
+      "advancements.stronger_than_iron.title": "Stronger Than Iron",
+      "block.overworld_ores.block_of_meterite_alloy": "Block Of Olivinite Alloy",
+      "block.overworld_ores.meteor_stone_tiles_slab": "Meteor Stone Tiles Slab",
+      "item.overworld_ores.olivinite_smithing_template": "Smithing Template",
+      "item.overworld_ores.raw_adamantite": "Raw Adamantite",
+      "block.overworld_ores.block_of_ruby": "Block Of Ruby",
+      "item.overworld_ores.raw_ancient_debris": "Raw Ancient Debris",
+      "item.overworld_ores.olivinite_armor_boots": "Olivinite Boots",
+      "item.overworld_ores.ruby": "Ruby",
+      "item.overworld_ores.tin_armor_leggings": "Tin Leggings",
+      "item.overworld_ores.tuff_rock": "Tuff Rock",
+      "block.overworld_ores.adamantite_ore": "Adamantite Ore",
+      "item.overworld_ores.steel_armor_leggings": "Steel Leggings",
+      "item.overworld_ores.olivinite_hoe": "Olivinite Hoe",
+      "block.overworld_ores.polished_meteor_stone": "Polished Meteor Stone",
+      "subtitles.meteor.step": "Footsteps",
+      "item.overworld_ores.tin_armor_chestplate": "Tin Chestplate",
+      "item.overworld_ores.admantite_armor_helmet": "Admantite Helmet",
+      "item.overworld_ores.raw_silver": "Raw Silver",
+      "item.overworld_ores.tin_pickaxe": "Tin Pickaxe",
+      "item.overworld_ores.platinum_pickaxe": "Platinum Pickaxe",
+      "advancements.from_beyond_the_moon.title": "From Beyond The Moon",
+      "block.overworld_ores.block_of_sapphire": "Block Of Sapphire",
+      "item.overworld_ores.steel_hoe": "Steel Hoe",
+      "item.overworld_ores.steel_pickaxe": "Steel Pickaxe",
+      "item.overworld_ores.steel_armor_boots": "Steel Boots",
+      "item.overworld_ores.deepslate_rock": "Deepslate Rock",
+      "subtitles.meteor.broken": "Block broken",
+      "item.overworld_ores.meteor_stone_rock": "Meteor Stone Rock",
+      "advancements.deep_underground.descr": "Acqurie Platinum",
+      "item.overworld_ores.chisel": "Chisel",
+      "item.overworld_ores.silver_ingot": "Silver Ingot",
+      "item.overworld_ores.tin_axe": "Tin Axe",
+      "item.overworld_ores.steel_armor_helmet": "Steel Helmet",
+      "advancements.inbetween_the_bedrock.title": "Inbetween The Bedrock",
+      "subtitles.silver.block.placed": "Block placed",
+      "item.overworld_ores.olivinite_armor_helmet": "Olivinite Helmet",
+      "advancements.stronger_than_iron.descr": "Reinforce your Iron to make Steel",
+      "item.overworld_ores.adamantite_upgrade_template": "Smithing Template",
+      "block.overworld_ores.silver_tiles": "Silver Tiles",
+      "block.overworld_ores.ruby_ore": "Ruby Ore",
+      "advancements.invincible.title": "Invincible",
+      "block.overworld_ores.stacked_meteor_stone_brick_stairs": "Stacked Meteor Stone Brick Stairs",
+      "item.overworld_ores.tin_hoe": "Tin Hoe",
+      "item.overworld_ores.andesite_rock": "Andesite Rock",
+      "biome.overworld_ores.crystalline_caverns": "Crystalline Caverns",
+      "block.overworld_ores.chiseled_meteor_stone": "Chiseled Meteor Stone",
+      "item.overworld_ores.olivinite_pickaxe": "Olivinite Pickaxe",
+      "entity.minecraft.villager.overworld_ores.miner": "Cave Miner",
+      "item.overworld_ores.steel_axe": "Steel Axe",
+      "block.overworld_ores.silver_tile_slab": "Silver Tile Slab",
+      "item.overworld_ores.diorite_rock": "Diorite Rock",
+      "block.overworld_ores.meteor_stone_brick_slab": "Meteor Stone Brick Slab",
+      "advancements.crystalline_caves.descr": "Enter the Crystalline Caves",
+      "item.overworld_ores.mossy_stone_rock": "Mossy Stone Rock",
+      "item.overworld_ores.meteorite": "Meteorite",
+      "advancements.all_gems.title": "Collector",
+      "block.overworld_ores.meteor_stone_bricks": "Meteor Stone Bricks",
+      "block.overworld_ores.sapphire_ore": "Sapphire Ore",
+      "item.overworld_ores.steel_armor_chestplate": "Steel Chestplate",
+      "subtitles.meteor.place": "Block placed",
+      "advancements.stronger_than_netherite.descr": "Upgrade a Netherite Ingot into Adamantite",
+      "subtitles.meteor.placed": "Block placed",
+      "block.overworld_ores.meteor_stone_wall": "Meteor Stone Wall",
+      "item.overworld_ores.platinum_sword": "Platinum Sword",
+      "item.overworld_ores.olivinite_axe": "Olivinite Axe",
+      "item.overworld_ores.adamantite_pickaxe": "Adamantite Pickaxe",
+      "item.overworld_ores.dripstone_rock": "Dripstone Rock",
+      "block.overworld_ores.steel_grate": "Steel Grate",
+      "block.overworld_ores.stacked_meteor_stone_bricks": "Stacked Meteor Stone Bricks",
+      "block.overworld_ores.deepslate_ruby_ore": "Deepslate Ruby Ore",
+      "advancements.inbetween_the_bedrock.descr": "Obtain Adamantite",
+      "item.overworld_ores.granite_rock": "Granite Rock",
+      "item.overworld_ores.tin_armor_helmet": "Tin Helmet",
+      "advancements.deep_underground.title": "Deep Underground",
+      "item.overworld_ores.adamantite_axe": "Adamantite Axe",
+      "block.overworld_ores.cut_steel": "Cut Steel",
+      "item.overworld_ores.olivine": "Olivine",
+      "item.overworld_ores.platinum_armor_boots": "Platinum Boots",
+      "item.overworld_ores.sapphire": "Sapphire",
+      "block.overworld_ores.silver_tile_stairs": "Silver Tile Stairs",
+      "biome.overworld_ores.meteor_crater_zone": "Meteor Crater Zone",
+      "advancements.invincible.descr": "Obtain a full set of Adamantite Armor",
+      "item.overworld_ores.olivinite_armor_leggings": "Olivinite Leggings",
+      "advancements.gold_repurposed.title": "Gold Repurposed",
+      "item.overworld_ores.platinum_armor_leggings": "Platinum Leggings",
+      "block.overworld_ores.meteor_stone_brick_stairs": "Meteor Stone Brick Stairs",
+      "item_group.overworld_ores.overworld_ores": "Overworld Ores",
+      "block.overworld_ores.chiseled_meteor_slab": "Chiseled Meteor Slab",
+      "item.overworld_ores.tin_ingot": "Tin Ingot",
+      "item.overworld_ores.raw_platinum": "Raw Platinum",
+      "block.overworld_ores.polished_meteor_stone_stairs": "Polished Meteor Stone Stairs",
+      "block.overworld_ores.block_of_silver": "Block Of Silver",
+      "subtitles.ambient.meteorcrashzone.additions": "Crash zone radiates",
+      "advancements.from_beyond_the_moon.descr": "Locate and Obtain Meteorite",
+      "block.overworld_ores.block_of_tin": "Block Of Tin",
+      "block.overworld_ores.silver_grate": "Silver Grate",
+      "item.overworld_ores.platinum_ingot": "Platinum Ingot",
+      "item.overworld_ores.admantite_armor_chestplate": "Admantite Chestplate",
+      "item.overworld_ores.olivine_nugget": "Olivine Nugget",
+      "block.overworld_ores.block_of_raw_tin": "Block Of Raw Tin",
+      "item.overworld_ores.adamantite_sword": "Adamantite Sword",
+      "block.overworld_ores.block_of_steel": "Block Of Steel",
+      "item.overworld_ores.admantite_armor_leggings": "Admantite Leggings",
+      "subtitles.meteor.breaking": "Block breaking",
+      "block.overworld_ores.meteor_stone_piller": "Meteor Stone Piller",
+      "item.overworld_ores.steel_sword": "Steel Sword",
+      "block.overworld_ores.block_of_platinum": "Block Of Platinum",
+      "block.overworld_ores.platinum_ore": "Platinum Ore",
+      "item.overworld_ores.adamantite_shovel": "Adamantite Shovel",
+      "item.overworld_ores.calcite_rock": "Calcite Rock",
+      "advancements.gold_repurposed.descr": "Upgrade all Gold Equipment with a Olivinite Ingot",
+      "subtitles.silver.block.step": "Footsteps",
+      "block.overworld_ores.meteor_stone_tiles_stairs": "Meteor Stone Tiles Stairs",
+      "item.overworld_ores.alexandrite": "Alexandrite",
+      "item.overworld_ores.basalt_rock": "Basalt Rock",
+      "subtitles.meteormetal.breaking": "Block breaking",
+      "advancements.a_new_metal.descr": "Forge an Ingot of Olivinite",
+      "block.overworld_ores.tin_ore": "Tin Ore",
+      "item.overworld_ores.admantite_armor_boots": "Admantite Boots",
+      "item.overworld_ores.crushed_coal_item": "Crushed Coal",
+      "block.overworld_ores.meteor_stone_panels": "Meteor Stone Panels",
+      "item.overworld_ores.platinum_axe": "Platinum Axe",
+      "subtitles.meteormetal.step": "Footsteps",
+      "item.overworld_ores.stone_rock": "Stone Rock",
+      "block.overworld_ores.chisled_silver": "Chiseled Silver",
+      "block.overworld_ores.metoer_metal": "Meteor Metal",
+      "item.overworld_ores.steel_shovel": "Steel Shovel",
+      "item.overworld_ores.adamantite_hoe": "Adamantite Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tin",
+        "children": []
+      },
+      {
+        "name": "Other Mod Elemetns",
+        "children": [
+          {
+            "name": "rocks",
+            "children": []
+          },
+          {
+            "name": "LootTables-Recipes",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "tools",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Steel",
+        "children": []
+      },
+      {
+        "name": "Platinum",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Adamantite",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Silver",
+        "children": []
+      },
+      {
+        "name": "Meteorite",
+        "children": [
+          {
+            "name": "MeteorStone",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Gems",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "overworld_ores",
+    "modName": "Overworld Ores",
+    "version": "1.0.0",
+    "description": "Additional ores for the Overworld!",
+    "author": "ShotUGMG",
+    "websiteURL": "https://discord.gg/uqsY2667KK",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "ShotUGMG",
+    "modElementsPackage": "net.mcreator.overworldores"
+  },
+  "mcreatorVersion": 202400118518
+}
